@@ -90,7 +90,7 @@
   {% else %}
     <body dir="{{ direction }}">
   {% endif %}
-    <script src="{{ 'https://s.guyue.me/cdn/cdn.tonycrane.cc/turing2022_js_scheme.js' | url }}" type="text/javascript"></script>
+    <script src="{{ 'https://cdn.tonycrane.cc/turing2022/js/scheme.js' | url }}" type="text/javascript"></script>
     {% set features = config.theme.features or [] %}
     {% if not config.theme.palette is mapping %}
       {% include "partials/javascripts/palette.html" %}
